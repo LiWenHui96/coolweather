@@ -32,14 +32,5 @@
             android:text="℃"
             android:textColor="@color/colorPrimary"
             android:textSize="20sp" />
-
-        <Button
-            android:id="@+id/area_settings"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:layout_alignParentRight="true"
-            android:layout_centerVertical="true"
-            android:layout_marginRight="30dp"
-            android:background="@drawable/ic_settings" />
     </TableRow>
 </TableLayout>

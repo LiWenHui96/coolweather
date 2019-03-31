@@ -27,7 +27,6 @@ import okhttp3.Response;
 public class AreaActivity extends AppCompatActivity {
     public DrawerLayout drawerLayout;
     private ListView areaList;
-    private Button areaSettingsButton;
     private Button areaBackButton;
     private Button areaNavButton;
 
@@ -43,7 +42,6 @@ public class AreaActivity extends AppCompatActivity {
         //初始化各控件
         drawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
         areaList = (ListView) findViewById(R.id.area_list);
-        areaSettingsButton = (Button) findViewById(R.id.area_settings);
         areaBackButton = (Button) findViewById(R.id.area_back_button);
         areaNavButton = (Button) findViewById(R.id.area_nav_button);
 
@@ -60,13 +58,6 @@ public class AreaActivity extends AppCompatActivity {
         }
 
         initAddCity();
-
-        areaSettingsButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                
-            }
-        });
 
         areaNavButton.setOnClickListener(new View.OnClickListener() {
             @Override
